@@ -8,11 +8,11 @@ setup(
   author = 'Harbir Singh',                   
   author_email = 'harbir066@gmail.com',      
   url = 'https://github.com/Harbir66/topsis_101917050', 
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Harbir66/topsis_101917050/archive/refs/tags/v_01.tar.gz',    # I explain this later on
   keywords = ['TOPSIS', 'ML',],   
   install_requires=[            # I get to this in a second
-          'validators',
-          'beautifulsoup4',
+          'pandas',
+          'numpy',
       ],
   classifiers=[
     'Development Status :: 4 - Beta',      # either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state 
