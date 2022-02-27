@@ -161,43 +161,22 @@ def topsis(file,weight,impact,output):
     final.to_csv(path)
 
 
-def main():
-    # parser=argparse.ArgumentParser(description='Find out the ranking table')
-    # parser.add_argument("filename",help='Name of the file to be extracted',type=str)
-    # parser.add_argument('-w',"--weights",help='Enter the weights of attributes'  ,nargs="+", type=int,default=[1,1,1,1])
-    # parser.add_argument('-i',"--impacts",help='Enter the impacts of attributes',nargs='+',type=str,default=['+','+','+','+'])
-    # args=parser.parse_args()
-
-    # file=args.filename
-    args=sys.argv
-    # print(args)
-    argLen=len(args)
-    
-    ## Handling Wrong number of arguments exception
-    if(argLen!=5):
-        print("[ERROR]Invalid number of arguments")
-        sys.exit(0)
-    else :
-        topsis(args[1],args[2],args[3],args[4])
+def main(filename,output):
+    # args=sys.argv
+    # argLen=len(args)
+    weight=input("Enter weights (seperated by comma) :")
+    impact=input("Enter impacts(+/-) seperated by comma :")
+    topsis(filename,weight,impact,output)
+    # ## Handling Wrong number of arguments exception
+    # if(argLen!=5):
+    #     print("[ERROR]Invalid number of arguments")
+    #     sys.exit(0)
+    # else :
+    #     topsis(args[1],args[2],args[3],args[4])
 
 
-    # df=pd.read_csv('101917050-data.csv')
-    # print(df)    
-   
-    # X=df.iloc[:,1:].values
-    # print(X)
-   
-    # # impacts=args.impacts
-    # # weights=args.weights
-    # impacts=['+','+','+','+','+']
-    # weights=[1,1,1,1,1]
-
-   
-   
-    # if(top(X,weights,impacts)==None):
-    #     print("Successfully executed")
 
 
-if __name__=='__main__':
-    main()
+# if __name__=='__main__':
+#     main(filename,output)
    
