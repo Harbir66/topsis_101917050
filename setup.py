@@ -8,9 +8,9 @@ setup(
   author = 'Harbir Singh',                   
   author_email = 'harbir066@gmail.com',      
   url = 'https://github.com/Harbir66/topsis_101917050', 
-  download_url = 'https://github.com/Harbir66/topsis_101917050/archive/refs/tags/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Harbir66/topsis_101917050/archive/refs/tags/v_02.tar.gz',  
   keywords = ['TOPSIS', 'ML',],   
-  install_requires=[            # I get to this in a second
+  install_requires=[            
           'pandas',
           'numpy',
       ],
