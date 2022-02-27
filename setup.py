@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'topsis_101917050',         
   packages = ['topsis_101917050'],   
-  version = '0.1',      
+  version = '0.2',      
   license='MIT',        
   description = 'Name :Harbir Singh RollNo :101917050 Group:3CSE2 Description :A simple python pakage for calculating topsis score',  
   author = 'Harbir Singh',                   
