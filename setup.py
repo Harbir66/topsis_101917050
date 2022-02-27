@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'topsis_101917050',         
   packages = ['topsis_101917050'],   
-  version = '0.2',      
+  version = '0.3',      
   license='MIT',        
   description = 'Name :Harbir Singh RollNo :101917050 Group:3CSE2 Description :A simple python pakage for calculating topsis score',  
   author = 'Harbir Singh',                   
   author_email = 'harbir066@gmail.com',      
   url = 'https://github.com/Harbir66/topsis_101917050', 
-  download_url = 'https://github.com/Harbir66/topsis_101917050/archive/refs/tags/v_02.tar.gz',  
+  download_url = 'https://github.com/Harbir66/topsis_101917050/archive/refs/tags/v_03.tar.gz',  
   keywords = ['TOPSIS', 'ML',],   
   install_requires=[            
           'pandas',
